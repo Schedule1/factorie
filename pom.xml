@@ -265,7 +265,7 @@ limitations under the License.
       <plugin>
         <groupId>net.alchim31.maven</groupId>
         <artifactId>scala-maven-plugin</artifactId>
-        <version>3.2.1</version>
+        <version>3.3.1</version>
         <executions>
           <execution>
             <goals>
@@ -640,6 +640,7 @@ limitations under the License.
 
           <plugin>
             <groupId>org.codehaus.mojo</groupId>
+            <!--TODO: USELESS! WTF?-->
             <artifactId>flatten-maven-plugin</artifactId>
             <version>1.0.1</version>
             <executions>
