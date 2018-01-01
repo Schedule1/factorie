@@ -56,3 +56,4 @@ _cache
 static-site
 _site
 dot/
+.flattened-pom.xml
