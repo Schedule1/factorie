@@ -553,13 +553,13 @@ limitations under the License.
                     <!-- Assembles the jar and other release formats (tarball, etc.). -->
                     <plugin>
                         <artifactId>maven-assembly-plugin</artifactId>
-                        <version>2.4</version>
+                        <version>3.1.0</version>
                         <executions>
                             <execution>
                                 <id>make-assembly</id>
                                 <phase>package</phase>
                                 <goals>
-                                    <goal>attached</goal>
+                                    <goal>single</goal>
                                 </goals>
                             </execution>
                         </executions>
@@ -602,13 +602,13 @@ limitations under the License.
                     <!-- Assembles the jar and other release formats (tarball, etc.). -->
                     <plugin>
                         <artifactId>maven-assembly-plugin</artifactId>
-                        <version>2.4</version>
+                        <version>3.1.0</version>
                         <executions>
                             <execution>
                                 <id>make-assembly</id>
                                 <phase>package</phase>
                                 <goals>
-                                    <goal>attached</goal>
+                                    <goal>single</goal>
                                 </goals>
                             </execution>
                         </executions>
