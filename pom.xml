@@ -377,7 +377,7 @@ limitations under the License.
       <plugin>
         <groupId>com.carrotgarden.maven</groupId>
         <artifactId>flatten-maven-plugin</artifactId>
-        <version>1.3.20180201162357</version>
+        <version>1.3.20180205153346</version>
         <executions>
           <!-- enable flattening -->
           <execution>
