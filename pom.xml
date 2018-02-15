@@ -97,10 +97,16 @@ limitations under the License.
 
   <pluginRepositories>
 
+    <!--<pluginRepository>-->
+      <!--<id>bintray-random-maven</id>-->
+      <!--<name>random-maven-plugins</name>-->
+      <!--<url>https://dl.bintray.com/random-maven/maven/</url>-->
+    <!--</pluginRepository>-->
+
     <pluginRepository>
-      <id>bintray-random-maven</id>
+      <id>repo1-maven</id>
       <name>random-maven-plugins</name>
-      <url>https://dl.bintray.com/random-maven/maven/</url>
+      <url>http://repo1.maven.org/maven2/</url>
     </pluginRepository>
 
   </pluginRepositories>
@@ -377,7 +383,7 @@ limitations under the License.
       <plugin>
         <groupId>com.carrotgarden.maven</groupId>
         <artifactId>flatten-maven-plugin</artifactId>
-        <version>1.3.20180205153346</version>
+        <version>1.3.20180210195103</version>
         <executions>
           <!-- enable flattening -->
           <execution>
