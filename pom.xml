@@ -70,16 +70,16 @@ limitations under the License.
   </organization>
 
   <repositories>
-    <repository>
-      <id>dev-iesl.cs.umass.edu</id>
-      <name>dev-iesl.cs.umass.edu</name>
-      <url>https://dev-iesl.cs.umass.edu/nexus/content/repositories/thirdparty/</url>
-    </repository>
-    <repository>
-      <id>iesl-snapshots</id>
-      <name>iesl-snapshots</name>
-      <url>https://dev-iesl.cs.umass.edu/nexus/content/groups/public-snapshots/</url>
-    </repository>
+<!--    <repository>-->
+<!--      <id>dev-iesl.cs.umass.edu</id>-->
+<!--      <name>dev-iesl.cs.umass.edu</name>-->
+<!--      <url>https://dev-iesl.cs.umass.edu/nexus/content/repositories/thirdparty/</url>-->
+<!--    </repository>-->
+<!--    <repository>-->
+<!--      <id>iesl-snapshots</id>-->
+<!--      <name>iesl-snapshots</name>-->
+<!--      <url>https://dev-iesl.cs.umass.edu/nexus/content/groups/public-snapshots/</url>-->
+<!--    </repository>-->
 
     <repository>
       <id>info-bliki-repository</id>
@@ -207,18 +207,18 @@ limitations under the License.
 
   <distributionManagement>
 
-    <repository>
-      <id>dev-iesl.cs.umass.edu</id>
-      <name>dev-iesl.cs.umass.edu</name>
-      <url>https://dev-iesl.cs.umass.edu/nexus/content/repositories/releases</url>
-    </repository>
+<!--    <repository>-->
+<!--      <id>dev-iesl.cs.umass.edu</id>-->
+<!--      <name>dev-iesl.cs.umass.edu</name>-->
+<!--      <url>https://dev-iesl.cs.umass.edu/nexus/content/repositories/releases</url>-->
+<!--    </repository>-->
 
-    <snapshotRepository>
-      <id>dev-iesl.cs.umass.edu</id>
-      <name>dev-iesl.cs.umass.edu</name>
-      <url>https://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots</url>
-      <uniqueVersion>false</uniqueVersion>
-    </snapshotRepository>
+<!--    <snapshotRepository>-->
+<!--      <id>dev-iesl.cs.umass.edu</id>-->
+<!--      <name>dev-iesl.cs.umass.edu</name>-->
+<!--      <url>https://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots</url>-->
+<!--      <uniqueVersion>false</uniqueVersion>-->
+<!--    </snapshotRepository>-->
 
     <site>
       <id>ieslwww</id>
@@ -596,16 +596,16 @@ limitations under the License.
         <package.type>jar</package.type>
       </properties>
       <repositories>
-        <repository>
-          <id>dev-iesl.cs.umass.edu-snapshots</id>
-          <name>dev-iesl.cs.umass.edu</name>
-          <url>https://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots/</url>
-        </repository>
-        <repository>
-          <id>dev-iesl.cs.umass.edu-releases</id>
-          <name>dev-iesl.cs.umass.edu</name>
-          <url>https://dev-iesl.cs.umass.edu/nexus/content/repositories/releases/</url>
-        </repository>
+<!--        <repository>-->
+<!--          <id>dev-iesl.cs.umass.edu-snapshots</id>-->
+<!--          <name>dev-iesl.cs.umass.edu</name>-->
+<!--          <url>https://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots/</url>-->
+<!--        </repository>-->
+<!--        <repository>-->
+<!--          <id>dev-iesl.cs.umass.edu-releases</id>-->
+<!--          <name>dev-iesl.cs.umass.edu</name>-->
+<!--          <url>https://dev-iesl.cs.umass.edu/nexus/content/repositories/releases/</url>-->
+<!--        </repository>-->
       </repositories>
       <dependencies>
         <dependency>
